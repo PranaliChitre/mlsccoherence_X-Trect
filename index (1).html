@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-black text-white tracking-wider mx-28">
+    <header>
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 text-color-secondary font-bold text-3xl">
+                <a href="#home">
+                    <span class="text-pink-500">Social</span>Sculpt.
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#mission" class="hover:text-color-secondary ease-in duration-200">Mission</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    
+                    <!--<li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>-->
+                    <li><a href="#services" class="hover:text-color-secondary ease-in duration-200">Services</a></li>
+                    
+                    <li><button class="btn">Sign In</button></li>
+                </ul>
+            </div>            
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="relative">
+            <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30 rounded-full overflow-hidden"></div>
+            <div class="w-80 h-80 bg-orange-500 absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 rounded-full overflow-hidden"></div>
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center md:text-left md:wd-1/2 md:pr-10">
+                        <h1 class="title text-3xl font-bold mb-5 text-white">Welcome!</h1>
+                        <p class="leading-relaxed mb-10 font-bold text-pink-200">SocialSculpt is more than just a social media platform; it's a vibrant ecosystem designed to empower and elevate content creators to new heights. Our mission is to provide creators with the tools, resources, and community support they need to grow, thrive, and succeed in today's digital landscape.</p>
+                        <!--<p class="leading-relaxed mb-10 font-bold  text-pink-200">At SocialSculpt, we believe that creativity knows no bounds. Whether you're a budding artist, an aspiring filmmaker, a talented musician, or a passionate storyteller, our platform is your canvas for self-expression. We provide creators with a range of innovative tools and features to unleash their creativity and bring their visions to life.</p>-->
+                        <!--<button class="btn">Download App</button>-->
+                    </div>
+                    <div class="md:w-1/2">
+                        <video width="640" height="360" loop autoplay>
+                            <source src="vid.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="mission" class="bg-color-primary-light">
+            <div class="container h-[80vh] grid place-items-center">
+                <div class="text-center md:w-2/3 m-auto">
+                    <h1 class="title text-3xl text-pink-500 font-extrabold">"Connecting Lives, Sharing Moments: Your Social Hub for Every Story."</h1>
+                    <p class="leading-relaxed pt-5 font-bold">SocialSculpt is a dynamic social media platform designed to connect people from all walks of life, fostering meaningful interactions and relationships in a vibrant online community. With its intuitive interface and array of features, SocialSculpt transcends traditional social networking by prioritizing user engagement, privacy, and personalization.
+                    </p>
+                    
+                </div>
+            </div>    
+        </section>
+
+        <section id="features">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-extrabold text-pink-500 mb-4 text-2xl ">Innovation and Quality Improvement!</h4>
+                    
+                </div>
+                <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- card no 1-->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./seam.png" alt="" class="lg:h-full w-full hover:scale-125 transition 
+                            duration-300 ease-in-out">
+                        </div>
+
+                        <div class="flex items-centergap-5 py-5">
+                            <p>20 August 2023</p>
+                            <p>1 min read</p>
+                        </div>
+                        <a href="#features" class="text-2xl font-bold underline hover:text-pink-300 hover:no-underline">
+                            Seamless Integration
+                        </a>
+
+                        <p class="text-pink-200">Experience seamless integration with our platform, where every feature harmonizes effortlessly to enhance your workflow, streamline your processes, and amplify your productivity.</p>
+                        <a href="#features" class="inline-block font-bold  transition-all duration-300 ease-in-out">
+                            <span class="tracking-wider capitalize underline hover:no-underline">
+                                Read more
+                            </span>
+                        </a>
+                    </div>
+
+                    <!-- card no 2-->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./rec.png" alt="" class="lg:h-full w-full hover:scale-125 transition 
+                            duration-300 ease-in-out">
+                        </div>
+
+                        <div class="flex items-centergap-5 py-5">
+                            <p>20 August 2023</p>
+                            <p>1 min read</p>
+                        </div>
+                        <a href="#features" class="text-2xl font-bold underline hover:text-pink-300 hover:no-underline">
+                            Content Recommendations
+                        </a>
+
+                        <p class="text-pink-200">Unlock personalized content recommendations tailored to your interests and preferences, ensuring every interaction with our platform is enriched with relevant and engaging experiences.</p>
+                        <a href="#features" class="inline-block font-bold hover:text-color-secondarytransition-all duration-300 ease-in-out">
+                            <span class="tracking-wider capitalize underline hover:no-underline">
+                                Read more
+                            </span>
+                        </a>
+                    </div>
+
+                    <!-- card no 3-->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./progress.png" alt="" class="lg:h-full w-full hover:scale-125 transition 
+                            duration-300 ease-in-out">
+                        </div>
+
+                        <div class="flex items-centergap-5 py-5">
+                            <p>20 August 2023</p>
+                            <p>1 min read</p>
+                        </div>
+                        <a href="#features" class="text-2xl font-bold underline hover:text-pink-300 hover:no-underline">
+                            Progress Tracker
+                        </a>
+
+                        <p class="text-pink-200">Stay on top of your goals and accomplishments with our intuitive progress tracker, empowering you to visualize your journey, track milestones, and celebrate every step towards success.</p>
+                        <a href="#features" class="inline-block font-bold hover:text-color-secondarytransition-all duration-300 ease-in-out">
+                            <span class="tracking-wider capitalize underline hover:no-underline">
+                                Read more
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>      
+        </section>
+
+        <section id="integration" class="bg-color-primary-light">
+            <div class="container h-[80vh] grid place-items-center">
+                <div class="text-center md:w-2/3 m-auto">
+                    <h1 class="title text-2xl font-extrabold">Can be seamlessly integrated with...</h1>
+                    <!--<p class="leading-relaxed pt-5">Serving an impressive list of long-term money with experience
+                        and expertise in multiple industries.-->
+                    </p>
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
+                        <a href="#" class="bg-black h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                            <img src="./ins.jpg" alt="">
+                        </a>
+                        <a href="#" class="bg-black h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                            <img src="./fb.png" alt="">
+                        </a>
+                        <a href="#" class="bg-black h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                            <img src="./linkedin.png" alt="">
+                        </a>
+                        <a href="#" class="bg-black h-16 w-44 grid place-items-center rounded-lg hover:opacity-70">
+                            <img src="./x.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <footer>
+            <p class="leading-relaxed mb-10 font-bold  text-pink-200">At SocialSculpt, we believe that creativity knows no bounds. Whether you're a budding artist, an aspiring filmmaker, a talented musician, or a passionate storyteller, our platform is your canvas for self-expression. We provide creators with a range of innovative tools and features to unleash their creativity and bring their visions to life.</p>
+            <hr class="bg-pink-300">
+            <div class="mt-5">
+                <h3 class="font-bold">Cross-platform Integration: <span> Enable seamless integration with other social media platforms, allowing users to share their content across multiple channels and reach a wider audience.</span></h3>
+                <h3 class="font-bold">Customizable Templates: <span>Provide customizable templates and presets to help creators jumpstart their projects and streamline their workflow.</span></h3>
+                <h3 class="font-bold">Customer Support: <span>Offer responsive customer support to assist users with technical issues, inquiries, or any other assistance they may need while using the platform</span></h3>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.hover-shadow {
+
+    top: 0%;
+    left: 0%;
+  
+    transform: translateX(0px);
+    transition: box-shadow 0.5s ease;
+    background-color: #87A922;
+    cursor: pointer;
+   
+  }
+  .color1{
+    color: #08492f;
+  }
+  .color2{
+    color:#FFC700;
+  }
+  .color4{
+    color: black;
+  }
+  .outlined-text {
+    /* Set the color of the text */
+    color: #ffffff; /* Change the color to your desired text color */
+    
+    /* Add an outline using text-shadow */
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.fs-41 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+}
+  
+  .hover-shadow:hover {
+    box-shadow: 6px 6px 40px 10px rgba(12, 255, 73, 0.5);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  .pad{
+    padding: 20px;
+  }
+  
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+.animated-text {
+        font-size: 36px;
+        font-weight: bold;
+        color: #87A922;
+        animation: fadein 2s ease-in-out infinite alternate;
+ }
